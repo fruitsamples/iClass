@@ -313,6 +313,7 @@
 				GCC_PREFIX_HEADER = iClass_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				MOMC_NO_WARNINGS = NO;
 				PRODUCT_NAME = iClass;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
@@ -333,6 +334,7 @@
 				GCC_PREFIX_HEADER = iClass_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				MOMC_NO_WARNINGS = YES;
 				PRODUCT_NAME = iClass;
 				WRAPPER_EXTENSION = app;
 			};
